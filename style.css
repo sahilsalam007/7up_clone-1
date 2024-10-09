@@ -1,0 +1,250 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.main img {
+    width: 100%;
+    position: relative;
+}
+
+header {
+    display: flex;
+    z-index: 1;
+    padding: 10px 30px;
+    padding-top: 20px;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    background-color: #F79A83;
+    border-bottom: 1px solid #fff;
+}
+
+.section-1 img {
+    width: 80px;
+}
+
+.section-2 {
+    position: relative;
+    right: 180px;
+}
+
+.section-2 ul li a {
+    padding: 17px 0;
+    color: #fff;
+    font-family: serif;
+    font-weight: 500;
+    font-size: 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: transparent;
+    margin-right: 40px;
+}
+
+.section-2 ul li a:hover {
+    text-decoration: underline;
+}
+
+.section-2 ul {
+    display: flex;
+
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.section-2 img {
+    position: absolute;
+    left: 434px;
+    top: 0px;
+    width: 200px;
+}
+
+
+div.main {
+    width: 100%;
+    height: 630px;
+    overflow: hidden;
+    background-size: cover;
+    background-image: url(./images/7up5.webp);
+}
+
+
+div.main h1 {
+    width: 50px;
+    z-index: 0;
+    color: #fff;
+    font-size: 70px;
+    font-weight: 100px;
+    position: relative;
+    left: 150px;
+    top: 200px;
+    font-family: "Rubik Bubbles", system-ui;
+}
+
+
+div.main button {
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    background-color: #ef83251a;
+    border: 2px solid white;
+    padding: 12px 39px;
+    border-radius: 30px;
+    margin-right: 28px;
+    position: relative;
+    left: 150px;
+    top: 170px;
+}
+
+
+div.main1 {
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+    background-image: url(./images/7up1.webp);
+}
+
+div.main1 div.content {
+    background-color: rgba(0, 128, 0, 0.661);
+    width: 45%;
+    height: 200px;
+    border-radius: 150px;
+    position: relative;
+    left: 400px;
+    top: 250px;
+}
+
+div.main1 div.content h1 {
+    width: 50px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 300px;
+    position: relative;
+    left: 250px;
+    top: 10px;
+    z-index: 0;
+    font-family: monospace;
+}
+
+div.main1 div.content p {
+    color: #fff;
+    position: relative;
+    left: 170px;
+    bottom: 18px;
+    z-index: 0;
+}
+
+div.main1 div.content button {
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    background-color: #ef83251a;
+    border: 2px solid white;
+    padding: 12px 39px;
+    border-radius: 30px;
+    margin-right: 28px;
+    position: relative;
+    left: 235px;
+    bottom: 20px;
+    z-index: 0;
+}
+
+div.main2 {
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    overflow: hidden;
+    background-image: url(./images/7up3.webp);
+}
+
+div.main2 div.container {
+    background-color: #003300;
+    opacity: 0.7;
+    width: 43%;
+    height: 200px;
+    border-radius: 150px;
+    position: relative;
+    left: 450px;
+    top: 280px;
+}
+
+div.main2 div.container h1 {
+    width: 80%;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 400px;
+    position: relative;
+    left: 150px;
+    top: 20px;
+    z-index: 1;
+    font-family: monospace;
+}
+
+div.main2 div.container p {
+    color: #fff;
+    position: relative;
+    left: 100px;
+    bottom: 10px;
+    z-index: 1;
+}
+
+div.main2 div.container button {
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    background-color: #ef83251a;
+    border: 2px solid white;
+    padding: 12px 39px;
+    border-radius: 30px;
+    margin-right: 28px;
+    position: relative;
+    left: 225px;
+    bottom: 10px;
+    z-index: 1;
+}
+
+.banner-1-h1 {
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 5.5vw;
+    font-weight: 800;
+    line-height: 74px;
+    margin-bottom: 32px;
+
+}
+
+footer {
+    background-color: #333;
+    padding: 20px 0;
+    color: #fff;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+
+}
+
+.para {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.para p {
+    margin: 0;
+    text-align: center;
+}
